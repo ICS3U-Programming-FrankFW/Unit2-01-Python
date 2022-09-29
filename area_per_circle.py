@@ -1,14 +1,24 @@
-# !/usr/bin/env python3
-# Created By: Your Frankie fox wagoosh
+#!/usr/bin/env python3
+# Created By: Frankie Fox Wagoosh
 # Date: Sept 22, 2022
-# This program calculates the area and perimeter of a circle with a radius of 15mm. 
-import math 
-rad = 15
-circ = math.pi*2*rad
-area = math.pi*rad**2
-print(circ, area)
-9.24 , 706.8
-math.sqrt(100)
-10.0
-math.sqrt(25)
-5.0
+# This program calculates the area and perimeter of a circle with a radius of 15mm.
+import math
+
+
+def main():
+    print(
+        "This program calculates the area and perimeter of a circle with a radius of 15mm."
+    )
+    radius = 15
+
+    # calculate the circumference and area
+    circumference = math.pi * 2 * radius
+    area = math.pi * radius**2
+
+    # display the area and circumference
+    print("The area is {}".format(area))
+    print("The circumference is {}".format(circumference))
+
+
+if __name__ == "__main__":
+    main()
